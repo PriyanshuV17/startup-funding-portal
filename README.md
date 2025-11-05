@@ -149,11 +149,6 @@ Developed by:
 
   • DemandX  
 
-Organization: Code Crafters Programming Club (CUJ)  
-GitHub: https://github.com/PriyanshuV17  
-Website: https://ccpc-cuj.web.app  
-Year: 2025
-
 -----------------------------------------------------------
 ✨ FINAL NOTE
 -----------------------------------------------------------
