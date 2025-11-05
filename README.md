@@ -1,2 +1,0 @@
-# startup-funding-portal
-DemandX
