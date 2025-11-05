@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile | FundFusion</title>
+  <link rel="stylesheet" href="../styles/style.css" />
+</head>
+<body>
+  <header class="navbar glass">
+    <div class="container nav-content">
+      <div class="logo-area">
+        <img src="../assets/logo.png" class="logo" alt="FundFusion Logo" />
+        <h1 class="brand">FundFusion</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="../index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="analytics.html">Analytics</a>
+        <a href="pitchroom.html">Pitch Room</a>
+        <a href="pitch-analyzer.html">Pitch Analyzer</a>
+        <a href="profile.html" class="active">Profile</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="profile-section">
+    <div class="profile-card">
+      <h2>User Profile</h2>
+      <p>Update your details to improve your AI matchmaking accuracy.</p>
+      <form class="profile-form">
+        <input type="text" placeholder="Full Name" />
+        <input type="text" placeholder="Organization / Startup" />
+        <input type="email" placeholder="Email" />
+        <textarea placeholder="About or Investment Focus"></textarea>
+        <button type="submit" class="btn-primary">Save Changes</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> FundFusion</p>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
