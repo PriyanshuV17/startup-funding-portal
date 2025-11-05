@@ -1,0 +1,86 @@
+/* ===========================
+   Forms + Pitch Analyzer + Profile
+   =========================== */
+.profile-section, .analyzer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 3rem 1rem;
+  background: var(--bg-primary);
+}
+
+.profile-card, .analyzer-card {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(115,83,255,0.3);
+  border-radius: 1rem;
+  padding: 3rem;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 0 20px rgba(0,255,198,0.1);
+  color: var(--text-primary);
+}
+
+.profile-form input, .profile-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(115,83,255,0.3);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  color: var(--text-primary);
+}
+
+.profile-form button {
+  margin-top: 1rem;
+}
+
+/* Pitch Analyzer */
+.upload-box {
+  position: relative;
+  margin: 2rem 0;
+  border: 2px dashed rgba(0,255,198,0.3);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: 0.3s;
+}
+
+.upload-box:hover {
+  background: rgba(0,255,198,0.05);
+}
+
+.upload-box input {
+  display: none;
+}
+
+.upload-label {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--accent-teal);
+  font-weight: 500;
+}
+
+.progress-container {
+  margin-top: 1.5rem;
+  background: rgba(255,255,255,0.05);
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-violet));
+  transition: width 0.4s ease;
+}
+
+.result-container {
+  margin-top: 2rem;
+  background: rgba(255,255,255,0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(115,83,255,0.2);
+}
