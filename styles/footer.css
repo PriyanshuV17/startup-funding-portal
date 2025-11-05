@@ -1,0 +1,17 @@
+/* ===========================
+   Footer Styles
+   =========================== */
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--bg-primary);
+  color: var(--text-secondary);
+  font-size: .9rem;
+  border-top: 1px solid rgba(115,83,255,0.2);
+}
+
+.footer-social img {
+  width: 22px;
+  margin: 0 8px;
+  filter: invert(100%) brightness(0.8);
+}
