@@ -1,0 +1,41 @@
+/* ===========================
+   Navbar Styles
+   =========================== */
+.navbar {
+  background: rgba(10,15,30,0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(115,83,255,0.3);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  height: 40px;
+}
+
+.brand {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--accent-teal);
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background: linear-gradient(90deg, var(--accent-teal), var(--accent-violet));
+  color: var(--bg-primary);
+}
