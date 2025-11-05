@@ -1,0 +1,42 @@
+/* ===========================
+   Dashboard + Analytics Cards
+   =========================== */
+.dashboard-section, .analytics-section {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.match-grid, .chart-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card, .chart-card {
+  background: var(--bg-secondary);
+  border: 1px solid rgba(0,255,198,0.2);
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0,255,198,0.05);
+  transition: .3s;
+}
+
+.card:hover, .chart-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 30px rgba(115,83,255,.3);
+}
+
+.pitch-section {
+  text-align: center;
+  padding: 5rem 2rem;
+  background: var(--bg-primary);
+}
+
+.pitch-frame {
+  margin-top: 2rem;
+  border: 2px dashed rgba(115,83,255,.4);
+  padding: 3rem;
+  border-radius: 1rem;
+  color: var(--text-secondary);
+}
